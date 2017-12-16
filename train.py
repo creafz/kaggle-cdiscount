@@ -139,7 +139,6 @@ def train_and_validate(
         best_val_loss = float('+inf')
 
     for epoch in range(start_epoch, epochs + 1):
-        print(optimizer.param_groups[0]['lr'])
         train(
             train_data_loader,
             model,
