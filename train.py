@@ -216,7 +216,6 @@ def main(
     dropout_p,
     img_size
 ):
-    print(epochs)
     set_seed(seed)
     transform_train = make_augmentation_transforms(
         img_size,
